@@ -1,9 +1,9 @@
 import React from 'react';
 import './Dashboard.css';
-import backgroundCastle from './../src/images/backgroungCastle.png';
-import topLeftLogo from './../src/images/TopLeftLogo.png';
-import supporterNearLogo from './../src/images/SupporterNearLogo.png';
-import redHeart from './../src/images/RedHeard.png';
+import backgroundCastle from '../../images/backgroungCastle.png';
+import topLeftLogo from '../../images/TopLeftLogo.png';
+import supporterNearLogo from '../../images/SupporterNearLogo.png';
+import redHeart from '../../images/RedHeard.png';
 import {useNavigate} from "react-router-dom";
 
 function Dashboard() {

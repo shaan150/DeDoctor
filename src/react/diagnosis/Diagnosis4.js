@@ -1,9 +1,9 @@
 import React, { useState, useEffect } from 'react';
 import { useNavigate } from 'react-router-dom';
 import './Diagnosis4.css'; // You need to create this CSS file and style according to your design
-import topLeftLogo from './../src/images/TopLeftLogo.png';
-import redHeart from './../src/images/RedHeard.png';
-import supporterNearLogo from './../src/images/SupporterNearLogo.png';
+import topLeftLogo from '../../images/TopLeftLogo.png';
+import redHeart from '../../images/RedHeard.png';
+import supporterNearLogo from '../../images/SupporterNearLogo.png';
 
 function Diagnosis4() {
     let navigate = useNavigate();
@@ -47,7 +47,7 @@ function Diagnosis4() {
                     <a href="/about">About</a>
                     <a href="/support">Support</a>
                     <a href="/faq">FAQ</a>
-                    <a href="/" className="sign-out-btn">Sign Out</a>
+                    <a href="/public" className="sign-out-btn">Sign Out</a>
                 </nav>
             </header>
             <main className="diagnosis-main">

@@ -6,7 +6,7 @@ const crypto = require('crypto');
 const {KeyPair, connect, utils, keyStores, Contract} = require("near-api-js");
 const nodemailer = require('nodemailer');
 const { v4: uuidv4 } = require('uuid');
-const { storeKey, retrieveKey, removeKey } = require('./mockKeyHolder');
+const { storeKey, retrieveKey, removeKey } = require('../../mockKeyHolder');
 const {redirect} = require("react-router-dom");
 /**
  * Creates an instance of Express application.

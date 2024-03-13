@@ -1,9 +1,9 @@
 import React, { useState } from 'react';
 import { useNavigate } from 'react-router-dom';
 import './Diagnosis2.css';
-import topLeftLogo from './../src/images/TopLeftLogo.png';
-import redHeart from './../src/images/RedHeard.png';
-import supporterNearLogo from './../src/images/SupporterNearLogo.png';
+import topLeftLogo from '../../images/TopLeftLogo.png';
+import redHeart from '../../images/RedHeard.png';
+import supporterNearLogo from '../../images/SupporterNearLogo.png';
 
 const healthQuestions = [
     'Smoking',
@@ -47,7 +47,7 @@ function Diagnosis2() {
                     <a href="/about">About</a>
                     <a href="/support">Support</a>
                     <a href="/faq">FAQ</a>
-                    <a href="/" className="sign-out-btn">Sign Out</a>
+                    <a href="/public" className="sign-out-btn">Sign Out</a>
                 </nav>
             </header>
             <main className="diagnosis-main">

@@ -1,8 +1,8 @@
 import React from 'react';
 import './StartDiagnosis.css';
-import topLeftLogo from './../src/images/TopLeftLogo.png';
-import redHeart from './../src/images/RedHeard.png';
-import supporterNearLogo from './../src/images/SupporterNearLogo.png';
+import topLeftLogo from '../../images/TopLeftLogo.png';
+import redHeart from '../../images/RedHeard.png';
+import supporterNearLogo from '../../images/SupporterNearLogo.png';
 import {useNavigate} from "react-router-dom";
 
 function StartDiagnosis() {

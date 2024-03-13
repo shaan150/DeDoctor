@@ -4,16 +4,16 @@ import {
     Routes,
     Route,
 } from 'react-router-dom';
-import RegisterPatient from "./RegisterPatient";
-import CompleteRegistration from './CompleteRegistration';
-import Dashboard from './Dashboard';
-import StartDiagnosis from "./StartDiagnosis";
-import Diagnosis1 from "./Diagnosis1";
-import DownloadKey from "./DownloadKey";
-import Diagnosis2 from "./Diagnosis2";
-import Diagnosis3 from "./Diagnosis3";
-import Diagnosis4 from "./Diagnosis4";
-import Login from "./Login";
+import RegisterPatient from "./react/registration/RegisterPatient";
+import CompleteRegistration from './react/registration/CompleteRegistration';
+import Dashboard from './react/dashboard/Dashboard';
+import StartDiagnosis from "./react/diagnosis/StartDiagnosis";
+import Diagnosis1 from "./react/diagnosis/Diagnosis1";
+import DownloadKey from "./react/registration/DownloadKey";
+import Diagnosis2 from "./react/diagnosis/Diagnosis2";
+import Diagnosis3 from "./react/diagnosis/Diagnosis3";
+import Diagnosis4 from "./react/diagnosis/Diagnosis4";
+import Login from "./react/login/Login";
 import ProtectedRoute from './ProtectedRoute'; // Make sure this is correctly imported
 
 function App() {
